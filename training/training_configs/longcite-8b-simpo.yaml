@@ -1,0 +1,47 @@
+# Model arguments
+model_name_or_path: THUDM/LongCite-llama3.1-8b
+torch_dtype: null
+attn_implementation: flash_attention_2
+tokenizer_name_or_path: THUDM/LongCite-llama3.1-8b
+
+# Data training arguments
+# dataset_mixer:
+dataset_splits:
+- train
+
+preprocessing_num_workers: 12
+
+# SimPOTrainer arguments
+bf16: true
+beta: 10
+gamma_beta_ratio: 0.3
+do_eval: false
+# evaluation_strategy: epoch
+# eval_steps: 4000000
+gradient_accumulation_steps: 1
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: False
+hub_model_id: simpo-exps
+learning_rate: 3.0e-7
+log_level: info
+logging_steps: 5
+lr_scheduler_type: cosine
+max_length: 25600
+max_prompt_length: 24576
+num_train_epochs: 1
+# optim: adamw_hf
+optim: adamw_8bit
+output_dir: tmp
+run_name: tmp
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 1
+push_to_hub: false
+save_strategy: "no"
+# eval_on_start: true
+# save_steps: 1000
+report_to:
+- wandb
+# save_total_limit: 1
+seed: 42
+warmup_ratio: 0.1
