@@ -1,11 +1,12 @@
 # SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-g.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Arxiv](https://img.shields.io/badge/arXiv-2502.09604-B21A1B)](https://arxiv.org/abs/2502.09604)
 [![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-blue)](https://github.com/huggingface/transformers)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/YungSungChuang/)
-[![GitHub Stars](https://img.shields.io/github/stars/voidism/SelfCite?style=social)](https://github.com/voidism/SelfCite/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/SelfCite?style=social)](https://github.com/facebookresearch/SelfCite/stargazers)
 
-The implementation for the paper [SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models](https://arxiv.org/abs/2502.09604).
+The code for the ICML 2025 paper [SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models](https://arxiv.org/abs/2502.09604).
 
 Paper: https://arxiv.org/abs/2502.09604  
 Authors: [Yung-Sung Chuang](https://people.csail.mit.edu/yungsung/)$^\dagger$, [Benjamin Cohen-Wang](https://bencw99.github.io/)$^\dagger$, [Shannon Zejiang Shen](https://www.szj.io/)$^\dagger$, [Zhaofeng Wu](https://zhaofengwu.github.io/)$^\dagger$, [Hu Xu](https://howardhsu.github.io/)$^\ddagger$, [Xi Victoria Lin](https://victorialin.org/)$^\ddagger$, [James Glass](https://people.csail.mit.edu/jrg/)$^\dagger$, [Shang-Wen Li](https://swdanielli.github.io/)$^\ddagger$, [Wen-tau Yih](https://scottyih.org/)$^\ddagger$  
