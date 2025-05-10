@@ -52,6 +52,28 @@ python eval-direct-sampling.py \
     --num_gpus $NUM_GPUS
 ```
 
+#### Ours: [SelfCite-8B](https://huggingface.co/voidism/SelfCite-8B)
+
+```bash
+python eval-direct-sampling.py \
+    --model_path voidism/SelfCite-8B \
+    --tokenizer_path THUDM/LongCite-llama3.1-8b \
+    --save_dir $YOUR_OUTPUT_DIR \
+    --num_gpus $NUM_GPUS
+```
+
+#### Ours: [SelfCite-8B from ContextCite (CC)](https://huggingface.co/voidism/SelfCite-8B-from-CC) -- a fully self-supervised setting
+
+```bash
+python eval-direct-sampling.py \
+    --model_path voidism/SelfCite-8B-from-CC \
+    --tokenizer_path meta-llama/Llama-3.1-8B-Instruct \
+    --save_dir $YOUR_OUTPUT_DIR \
+    --num_gpus $NUM_GPUS \
+    --llama_chat_template
+```
+
+
 ### Best-of-N Sampling
 
 #### Step 1: Sampling candidates
@@ -82,6 +104,17 @@ python eval-best-of-n-reranking.py \
 ```
 
 You can still add the following arguments to split the examples into 4 shards and run them independently: ` --total_shards 4 --shard_id $TASK_ID `
+
+##### When sampling with SelfCite-8B-from-CC model
+
+The default chat template is consistent with LongCite-8B, which is different from the original Llama-3.1 chat template.
+You need to specify the original Llama-3.1 chat template when using our SelfCite-8B-from-CC model:
+
+```bash
+    --llama_chat_template \
+    --model_path voidism/SelfCite-8B-from-CC \
+    --tokenizer_path meta-llama/Llama-3.1-8B-Instruct \
+```
 
 Other Arguments:
 - `--rerank_method`: The reranking method for computing reward. The default is `log_prob_drop_and_hold`. Also supports `log_prob_drop`, `log_prob_hold`, `log_prob`.
