@@ -63,7 +63,6 @@ jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 lark==1.2.2
 liger-kernel==0.5.2
-litellm==1.55.0
 llvmlite==0.43.0
 lm-format-enforcer==0.10.9
 lxml==5.3.0
