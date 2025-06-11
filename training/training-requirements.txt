@@ -138,7 +138,7 @@ pyzmq==26.2.0
 ray==2.40.0
 referencing==0.35.1
 regex==2024.9.11
-requests==2.32.3
+requests==2.32.4
 responses==0.18.0
 rich==13.9.4
 rpds-py==0.22.3
