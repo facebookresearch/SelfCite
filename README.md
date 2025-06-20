@@ -2,12 +2,14 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-g.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Arxiv](https://img.shields.io/badge/arXiv-2502.09604-B21A1B)](https://arxiv.org/abs/2502.09604)
-[![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-blue)](https://github.com/huggingface/transformers)
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/YungSungChuang/)
+[![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-blue)](https://huggingface.co/voidism/SelfCite-8B)
+[![Blog Post](https://img.shields.io/badge/Blog-voidism-yellow)](https://voidism.github.io/SelfCite/)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://x.com/YungSungChuang/status/1890431923622682823)
 [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/SelfCite?style=social)](https://github.com/facebookresearch/SelfCite/stargazers)
 
 The code for the ICML 2025 paper [SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models](https://arxiv.org/abs/2502.09604).
 
+Blog Post: https://voidism.github.io/SelfCite/  
 Paper: https://arxiv.org/abs/2502.09604  
 Authors: [Yung-Sung Chuang](https://people.csail.mit.edu/yungsung/)$^\dagger$, [Benjamin Cohen-Wang](https://bencw99.github.io/)$^\dagger$, [Shannon Zejiang Shen](https://www.szj.io/)$^\dagger$, [Zhaofeng Wu](https://zhaofengwu.github.io/)$^\dagger$, [Hu Xu](https://howardhsu.github.io/)$^\ddagger$, [Xi Victoria Lin](https://victorialin.org/)$^\ddagger$, [James Glass](https://people.csail.mit.edu/jrg/)$^\dagger$, [Shang-Wen Li](https://swdanielli.github.io/)$^\ddagger$, [Wen-tau Yih](https://scottyih.org/)$^\ddagger$  
 $^\dagger$ Massachusetts Institute of Technology, $^\ddagger$ Meta AI
@@ -167,24 +169,19 @@ See the `training` directory for the training code. We follow SimPO's training p
 - SimPO: https://github.com/princeton-nlp/SimPO
 
 ## Citation
-Please cite our paper as well as LongCite if they are helpful to your work!
+Please cite our paper if it's helpful to your work!
 
 [![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2502.09604-green?color=FF8000?color=009922)](https://doi.org/10.48550/arXiv.2502.09604)
 
 ```bibtex
 @inproceedings{chuang2025selfcite,
-  title={SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models},
-  author={Yung-Sung Chuang and Benjamin Cohen-Wang and Shannon Zejiang Shen and Zhaofeng Wu and Hu Xu and Xi Victoria Lin and James Glass and Shang-Wen Li and Wen-tau Yih},
-  journal={arXiv preprint arXiv:2502.09604},
-  year={2025}
-}
-
-@article{zhang2024longcite,
-  title = {LongCite: Enabling LLMs to Generate Fine-grained Citations in Long-context QA} 
-  author={Jiajie Zhang and Yushi Bai and Xin Lv and Wanjun Gu and Danqing Liu and Minhao Zou and Shulin Cao and Lei Hou and Yuxiao Dong and Ling Feng and Juanzi Li},
-  journal={arXiv preprint arXiv:2409.02897},
-  year={2024}
+    title={SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models},
+    author={Yung-Sung Chuang and Benjamin Cohen-Wang and Zejiang Shen and Zhaofeng Wu and Hu Xu and Xi Victoria Lin and James R. Glass and Shang-Wen Li and Wen-tau Yih},
+    booktitle={Forty-second International Conference on Machine Learning},
+    year={2025},
+    url={https://openreview.net/forum?id=rKi8eyJBoB}
 }
 ```
+
 ## License
 SelfCite is FAIR Noncommercial Research License licensed, as found in the LICENSE file.
