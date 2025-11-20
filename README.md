@@ -175,12 +175,20 @@ Please cite our paper if it's helpful to your work!
 
 ```bibtex
 @inproceedings{chuang2025selfcite,
-    title={SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models},
-    author={Yung-Sung Chuang and Benjamin Cohen-Wang and Zejiang Shen and Zhaofeng Wu and Hu Xu and Xi Victoria Lin and James R. Glass and Shang-Wen Li and Wen-tau Yih},
-    booktitle={Forty-second International Conference on Machine Learning},
-    year={2025},
-    url={https://openreview.net/forum?id=rKi8eyJBoB}
+  title = 	 {{S}elf{C}ite: Self-Supervised Alignment for Context Attribution in Large Language Models},
+  author =       {Chuang, Yung-Sung and Cohen-Wang, Benjamin and Shen, Zejiang and Wu, Zhaofeng and Xu, Hu and Lin, Xi Victoria and Glass, James R. and Li, Shang-Wen and Yih, Wen-Tau},
+  booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
+  pages = 	 {10839--10858},
+  year = 	 {2025},
+  editor = 	 {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  volume = 	 {267},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--19 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v267/main/assets/chuang25a/chuang25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v267/chuang25a.html}
 }
+
 ```
 
 ## License
