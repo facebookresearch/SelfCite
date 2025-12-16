@@ -33,7 +33,7 @@ exceptiongroup==1.2.2
 executing==2.1.0
 fairscale==0.4.13
 fastapi==0.115.6
-filelock==3.16.1
+filelock==3.20.1
 fire==0.7.0
 flash-attn==2.7.2.post1
 frozenlist==1.4.1
