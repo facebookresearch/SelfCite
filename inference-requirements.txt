@@ -102,7 +102,7 @@ jupyterlab-pygments==0.3.0
 jupyterlab-server==2.27.3
 jupyterlab-vim==4.1.4
 jupyterlab-widgets==3.0.13
-keras==3.5.0
+keras==3.13.1
 kiwisolver==1.4.7
 langcodes==3.4.1
 language-data==1.2.0
