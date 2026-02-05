@@ -158,7 +158,7 @@ pillow==10.4.0
 platformdirs==4.3.6
 preshed==3.0.9
 prometheus-client==0.21.0
-protobuf==4.25.5
+protobuf==5.29.6
 psutil==6.0.0
 ptyprocess==0.7.0
 pure-eval==0.2.3
