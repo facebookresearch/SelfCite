@@ -107,7 +107,7 @@ parso==0.8.4
 partial-json-parser==0.2.1.1.post4
 peft==0.13.2
 pexpect==4.9.0
-pillow==10.4.0
+pillow==12.1.1
 platformdirs==4.3.6
 pluggy==1.5.0
 prometheus-client==0.21.1
