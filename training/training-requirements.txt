@@ -99,7 +99,7 @@ nvidia-nvjitlink-cu12==12.4.127
 nvidia-nvtx-cu12==12.1.105
 openai==1.57.3
 opencv-python-headless==4.10.0.84
-orjson==3.10.12
+orjson==3.11.6
 outlines==0.0.46
 packaging==24.1
 pandas==2.2.3
